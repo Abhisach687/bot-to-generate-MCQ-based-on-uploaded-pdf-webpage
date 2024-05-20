@@ -71,10 +71,10 @@ def get_mcq_chain():
     return mcq_chain
 
 
-st.set_page_config(page_title="Chatbot", page_icon="🤖")
+st.set_page_config(page_title="MCQ Bot", page_icon="🤖")
    
 def main():
-    st.title("Chatbot")
+    st.title("MCQ Bot")
 
     with st.sidebar:
         st.header("Settings")
